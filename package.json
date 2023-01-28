@@ -1,7 +1,7 @@
 {
   "name": "electron-react-typescript",
-  "author": "Diego Fernandes <diego.schell.f@gmail.com>",
-  "version": "2.0.0",
+  "author": "Bernardo Duarte <bernardoeiraduarte@gmail.com>",
+  "version": "1.0.0",
   "description": "An Electron boilerplate including TypeScript, React, Jest and ESLint.",
   "main": "./.webpack/main/index.js",
   "scripts": {
