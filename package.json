@@ -1,5 +1,5 @@
 {
-  "name": "electron-react-typescript",
+  "name": "electron-typescript-react",
   "author": "Bernardo Duarte <bernardoeiraduarte@gmail.com>",
   "version": "1.0.0",
   "description": "An Electron boilerplate including TypeScript, React, Jest and ESLint.",
@@ -66,8 +66,8 @@
   "config": {
     "forge": {
       "packagerConfig": {
-        "name": "electron-react-typescript",
-        "executableName": "electron-react-typescript",
+        "name": "electron-typescript-react",
+        "executableName": "electron-typescript-react",
         "icon": "assets/icon",
         "extraResource": [
           "assets"
@@ -98,7 +98,7 @@
         {
           "name": "@electron-forge/maker-squirrel",
           "config": {
-            "name": "electron-react-typescript"
+            "name": "electron-typescript-react"
           }
         },
         {
@@ -110,10 +110,6 @@
         {
           "name": "@electron-forge/maker-deb",
           "config": {}
-        },
-        {
-          "name": "@electron-forge/maker-rpm",
-          "config": {}
         }
       ],
       "publishers": [
@@ -122,7 +118,7 @@
           "config": {
             "repository": {
               "owner": "bernardoduarte",
-              "name": "electron-react-typescript"
+              "name": "electron-typescript-react"
             }
           }
         }
