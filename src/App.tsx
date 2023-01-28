@@ -1,12 +1,12 @@
-import { GlobalStyle } from './styles/GlobalStyle'
+import { Admin } from "react-admin";
+import jsonServerProvider from "ra-data-json-server";
 
-import { Greetings } from './components/Greetings'
+const dataProvider = jsonServerProvider('https://jsonplaceholder.typicode.com');
 
 export function App() {
   return (
     <>
-      <GlobalStyle />
-      <Greetings />
+      <Admin dataProvider={dataProvider} />
     </>
   )
 }
