@@ -10,7 +10,7 @@ jobs:
       with:
         node-version: 16
     - name: install dependencies
-      run: yarn install
+      run: yarn install --network-timeout 300000
     - name: build
       run: yarn make
 
@@ -22,7 +22,7 @@ jobs:
       with:
         node-version: 16
     - name: install dependencies
-      run: yarn install
+      run: yarn install --network-timeout 300000
     - name: build
       run: yarn make
       
@@ -34,6 +34,6 @@ jobs:
       with:
         node-version: 16
     - name: install dependencies
-      run: yarn install
+      run: yarn install --network-timeout 300000
     - name: build
       run: yarn make
